@@ -1,0 +1,69 @@
+.Terms {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 160px;
+  flex-wrap: nowrap;
+}
+.Terms h1 {
+  font-weight: 500;
+  font-size: 3rem;
+}
+.temsButton{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.temsButton p{
+  margin-left: 20rem;
+}
+.Terms ul {
+  font-family: 'Roboto';
+  font-size: 1.2rem;
+}
+.Terms span{
+  font-weight: bold;
+}
+.Terms li{
+  font-weight: 500;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+@media (max-width:800px){
+  .Terms h1{
+    font-size: 2rem;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .TermsContain{
+    background: white;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    height: 40rem;
+  }
+  .temsButton p{
+    margin-left: 0px;
+  }
+}
+@media (max-width:500px){
+  .TermsContain{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .TermsContain{
+    
+  }
+  .Terms h1{
+    width: 280px;
+    font-size: 1.5rem;
+  }
+  .Terms ul{
+    width: 280px;
+    margin-left: -10px;
+  }
+}

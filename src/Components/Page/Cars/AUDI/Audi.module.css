@@ -1,0 +1,52 @@
+.AUDI{
+  padding-top: 160px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.AUDI h1{
+  font-size: 3.5rem;
+}
+.AUDI button{
+  padding: 20px 60px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-size: 1.3rem;
+  background: #5c90ae;
+  border: 1px solid #eee;
+  text-transform: uppercase;
+}
+.AUDI p{
+  font-family: 'Roboto';
+  font-size: 1.3rem;
+}
+@media (max-width:1000px){
+  .AUDI{
+    flex-direction: column;
+  }
+}
+@media (max-width:800px){
+  .AUDI{
+    flex-direction: column;
+    text-align: center;
+  }
+  .AUDI img{
+    width: 300px;
+  }
+  .AUDI h1{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+  }
+  .AUDI p{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,30 @@
+.Cars h1{
+  text-align: center;
+  font-size: 5rem;
+}
+.CarsContainer{
+  padding-top: 60px;
+  padding-bottom: 160px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.CarsContainer img{
+  width: 400px;
+  padding: 10px;
+  background: white;
+}
+@media (max-width:500px){
+  .Cars h1{
+    font-size: 4rem;
+  }
+  .CarsContainer img{
+    padding: 10px;
+    width: 300px;
+  }
+}

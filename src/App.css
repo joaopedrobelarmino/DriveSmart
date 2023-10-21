@@ -1,0 +1,17 @@
+li{
+  list-style: none;
+}
+img{
+  display: block;
+  max-width: 100%;
+  border-radius: 1px;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+body{
+  background: #f1f1f1;
+  margin: 0px;
+  font-family: 'IBM Plex Serif', serif;
+}

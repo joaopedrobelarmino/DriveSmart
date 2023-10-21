@@ -1,0 +1,46 @@
+.Local {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 160px;
+}
+.Local h1 {
+  font-size: 4rem;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.Local p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .Local {
+    grid-template-columns: 1fr;
+  }
+  .Local img {
+    width: 300px;
+    padding-left: 80px;
+  }
+  .Local h1 {
+    font-size: 3rem;
+  }
+  .Local p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .Local img{
+    width: 180px;
+    padding-left:100px;
+  }
+  .Local h1{
+    font-size: 3rem;
+  }
+  .Local p{
+    font-size: 1.5rem;
+  }
+}

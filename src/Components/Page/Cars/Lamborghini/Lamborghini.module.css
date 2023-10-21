@@ -1,0 +1,52 @@
+.BMW{
+  padding-top: 160px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.BMW h1{
+  font-size: 3.5rem;
+}
+.BMW button{
+  padding: 20px 60px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-size: 1.3rem;
+  background: #5c90ae;
+  border: 1px solid #eee;
+  text-transform: uppercase;
+}
+.BMW p{
+  font-family: 'Roboto';
+  font-size: 1.3rem;
+}
+@media (max-width:1000px){
+  .BMW{
+    flex-direction: column;
+  }
+}
+@media (max-width:800px){
+  .BMW{
+    flex-direction: column;
+    text-align: center;
+  }
+  .BMW img{
+    width: 300px;
+  }
+  .BMW h1{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+  }
+  .BMW p{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+  }
+}

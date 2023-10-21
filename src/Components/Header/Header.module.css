@@ -1,0 +1,42 @@
+.Header{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.Header ul{
+  display: flex;
+  gap: 40px;
+  font-family: 'Roboto';
+  font-size: 1.2rem;
+  color: #141414;
+}
+.Header li{
+  color: #141414;
+}
+
+@media (max-width:800px){
+  .Header{
+    align-items: center;
+    flex-direction: column;
+  }
+  .Header a{
+    background: white;
+    padding: 10px;
+  }
+}
+@media (max-width:450px){
+  .Header a{
+    position: relative;
+    left: -20px;
+  }
+}
+@media (max-width:400px){
+  .Header a{
+    position: relative;
+    left: -20px;
+  }
+}
